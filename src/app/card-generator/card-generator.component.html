@@ -4,9 +4,7 @@
     <img src="logo.png" class="img-fluid" style="width: 50px" />
   </h1>
   <div class="row justify-content-center">
-    <!-- Center the content -->
     <div class="col-md-8 col-lg-6">
-      <!-- Adjust column size for responsiveness -->
       <div class="card-container text-center">
         <input
           type="text"
@@ -17,14 +15,12 @@
         />
 
         <div id="card" class="card-preview position-relative my-3">
-          <!-- Added position-relative -->
           <img
             src="bg.png"
             alt="Card Background"
             class="card-background img-fluid"
           />
           <div class="card-text position-absolute">{{ guestName }}</div>
-          <!-- Added position-absolute for centering text -->
         </div>
 
         <button class="btn btn-success m-1" (click)="downloadAsPDF()">
