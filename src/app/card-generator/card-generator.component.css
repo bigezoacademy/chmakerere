@@ -27,7 +27,7 @@
 
 @media (max-width: 576px) {
   .card-text {
-    font-size: 1.5rem;
+    font-size: 10px;
   }
   .heading {
     padding: 10px 20px;
