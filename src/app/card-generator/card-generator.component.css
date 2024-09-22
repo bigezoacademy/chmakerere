@@ -17,7 +17,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: rgb(10, 83, 52);
   text-align: center;
@@ -27,7 +27,7 @@
 
 @media (max-width: 576px) {
   .card-text {
-    font-size: 10px;
+    font-size: 9px;
   }
   .heading {
     padding: 10px 20px;
